@@ -26,7 +26,7 @@ except ImportError:
     XGB_AVAILABLE = False
     print("[INFO] XGBoost not found.")
 
-API_KEY = "AIzaSyCo59h5MP2UV0qktPG2ZKaVJwXvtZ211VU" 
+API_KEY = "INSERT YOUR API KEY" 
 EMBEDDING_MODEL = "text-embedding-004"
 BASE_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/"
 EMBEDDING_API_URL = f"{BASE_API_URL}{EMBEDDING_MODEL}:embedContent?key={API_KEY}"
@@ -588,3 +588,4 @@ else:
             if tool_name not in embeddings:
                 embeddings[tool_name] = np.random.rand(768)
         if initial_load_needed: save_database(TOOLS, embeddings)
+
