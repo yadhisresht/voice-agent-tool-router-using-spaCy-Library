@@ -65,7 +65,8 @@ Play Arijit Singh songs
 What is the weather in Bangalore?
 Route from Delhi to Jaipur
 
-⚙️ How to Run
+## 🧪 HOW TO RUN 
+
 1️⃣ Install Dependencies
 pip install numpy requests
 pip install spacy
